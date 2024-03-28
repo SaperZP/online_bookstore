@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,34 +9,127 @@
     <title>Online bookstore</title>
   </head>
 
-  <body>
-    <header>
-      <h1>
+  <body class="page__body">
+    <header class="page__header">
+      <h1 class="page__title">
         Online Bookstore
       </h1>
     </header>
-    <section>
-      <h2>Filter by Genre</h2>
-      <select>
-        <option>All genres</option>
-        <option>Fiction</option>
-        <option>Non-fiction</option>
-        <option>Mystery</option>
-        <option>Fantasy</option>
-        <option>Computer and technology</option>
+
+    <section class="page__section page__section--paper-style">
+      <h2 class="section__title">Filter by Genre</h2>
+
+      <select class="filter">
+        <option class="filter__option">All genres</option>
+        <option class="filter__option">Fiction</option>
+        <option class="filter__option">Non-fiction</option>
+        <option class="filter__option">Mystery</option>
+        <option class="filter__option">Fantasy</option>
+        <option class="filter__option">Computer and technology</option>
       </select>
     </section>
-    <section>
-      <div>
-        <img src="" alt="">
-        <h3>Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter</h3>
+
+    <section class="page__section page__section--flex-container">
+      <div class="card page__section--paper-style">
+        <img
+          src="./assets/images/81py-nCTfrL._SY466_.jpg"
+          alt="book image"
+          class="card__image"
+        >
+
+        <h3 class="card__title">Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter</h3>
         <p>Author: Wes McKinney</p>
+
         <p>Genre: Computer & Technology</p>
+
         <p>Price: &#36; 33.99</p>
+
+        <button class="card__button">Add to cart</button>
+      </div>
+      <div class="card page__section--paper-style">
+        <img
+          src="./assets/images/81Sdk02bg+L._SY466_.jpg"
+          alt="book image"
+          class="card__image"
+        >
+
+        <h3 class="card__title">Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python</h3>
+        <p>Author: Peter Bruce, Andrew Bruce, Peter Gedeck</p>
+
+        <p>Genre: Computer & Technology</p>
+
+        <p>Price: $42.99</p>
+
+        <button class="card__button">Add to cart</button>
+      </div>
+      <div class="card page__section--paper-style">
+        <img
+          src="./assets/images/81ukjOIQyKL._AC._SR360,460.jpg"
+          alt="book image"
+          class="card__image"
+        >
+
+        <h3 class="card__title">The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma</h3>
+        <p>Author: Mustafa Suleyman (Author), Michael Bhaskar</p>
+
+        <p>Genre: Computer & Technology</p>
+
+        <p>Price: $21.99</p>
+
+        <button class="card__button">Add to cart</button>
+      </div>
+      <div class="card page__section--paper-style">
+        <img
+          src="./assets/images/61ZuZASPz2L._SY466_.jpg"
+          alt="book image"
+          class="card__image"
+        >
+
+        <h3 class="card__title">EXCEL 2023: From Beginner to Expert | The Illustrative Guide to Master All The Essential
+          Functions</h3>
+        <p>Author: Richard Wilson</p>
+
+        <p>Genre: Computer & Technology</p>
+
+        <p>Price: $14.99</p>
+
+        <button class="card__button">Add to cart</button>
+      </div>
+      <div class="card page__section--paper-style">
+        <img
+          src="./assets/images/91QBEYSpnLL._SY466_.jpg"
+          alt="book image"
+          class="card__image"
+        >
+
+        <h3 class="card__title">Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter</h3>
+        <p>Author: Wes McKinney</p>
+
+        <p>Genre: Computer & Technology</p>
+
+        <p>Price: $33.99</p>
+
+        <button class="card__button">Add to cart</button>
+      </div>
+      <div class="card page__section--paper-style">
+        <img
+          src="./assets/images/616c+ys7RBL._SY466_.jpg"
+          alt="book image"
+          class="card__image"
+        >
+
+        <h3 class="card__title">Introduction to Algorithms, fourth edition</h3>
+        <p>Author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</p>
+
+        <p>Genre: Computer & Technology</p>
+
+        <p>Price: $112.99</p>
+
+        <button class="card__button">Add to cart</button>
       </div>
     </section>
 
-    <footer>
+    <footer class="page__footer">
       <p>&#169; 2023 Online Bookstore</p>
     </footer>
   </body>

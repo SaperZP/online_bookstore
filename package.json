@@ -1,5 +1,6 @@
 {
   "name": "online_bookstore",
+  "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
